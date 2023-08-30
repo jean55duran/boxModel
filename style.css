@@ -7,33 +7,34 @@ html, body{
 header{
     background-color: #4f1581;
     height: 60px;
-}
-
-section{
-    display: flex;
-    /*flex-direction: row-reverse;*/
-    background-color: #502a72;
-    overflow: hidden;
+    grid-area: header;
 }
 
 nav{
     background-color: #593e99;
-    width: 25%;
+    grid-area: menu;
 }
 
 article{
     background-color: #454eb1;
     height: 80px;
-    width: 75%;
+    grid-area: content;
 }
 
 footer{
     background-color: #6f95ff;
     height: 120px;
+    grid-area: footer;
 }
 
 #container{
     background-color: gray;
     margin: 0 auto;
     max-width: 800px;
+
+    display: grid;
+    grid-template-areas:
+    'header header header header'
+    'menu content content content'
+    'footer footer footer footer'
 }
