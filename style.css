@@ -1,0 +1,38 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: blueviolet;
+    height: 60px;
+}
+
+section{
+    background-color: darksalmon;
+    overflow: hidden;
+}
+
+nav{
+    background-color: beige;
+    width: 25%;
+    float: left;
+}
+
+article{
+    background-color: aquamarine;
+    float: left;
+    height: 80px;
+    width: 75%;
+}
+
+footer{
+    background-color: crimson;
+    height: 120px;
+}
+
+#container{
+    background-color: gray;
+    margin: 0 auto;
+    max-width: 800px;
+}
